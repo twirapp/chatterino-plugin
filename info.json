@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Chatterino/chatterino2/master/docs/plugin-info.schema.json",
+    "name": "Twir completion",
+    "description": "Autocompletion for Twir channel commands, fetched from the Twir public API",
+    "authors": [
+        "satont"
+    ],
+    "homepage": "https://twir.app",
+    "tags": [
+        "utility",
+        "commands",
+        "bot"
+    ],
+    "permissions": [
+        {"type": "FilesystemRead"},
+        {"type": "FilesystemWrite"},
+        {"type": "Network"}
+    ],
+    "version": "1.0.1",
+    "license": "MIT"
+}
